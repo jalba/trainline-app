@@ -1,0 +1,55 @@
+.pattern-container {
+  border: 1px solid #D5D5D8;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: 80px;
+  position: relative;
+  width: 500px;
+}
+
+.pattern-header {
+  height: 130px;
+  margin-left: 10%;
+  width: 80%;
+}
+
+@media (max-width: 500px) {
+  .pattern-container {
+    left: 0px; 
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .pattern-header {
+  	margin-left: 0px;
+    width: 100%;
+  }
+}
+
+.train-icon {
+  float: left;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.route {
+  float: left;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 35px;
+  padding-left: 20px;
+  width: 70%;
+}
+
+.to {
+  color: #BBBBBB;
+}
+
+.operator {
+  color: #9D9D9D;
+  float: left;
+  font-size: 16px;
+  margin-top: 10px;
+  padding-left: 20px;
+}

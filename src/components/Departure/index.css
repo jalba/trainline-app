@@ -1,0 +1,91 @@
+.departure {
+  border-top: 1px solid #D5D5D8;
+  cursor: pointer;
+  height: 100px;
+  width: 100%;
+}
+
+.departure a {
+  color: black;
+}
+
+.departure:hover {
+  background-color: #D1F4EC;
+}
+
+.time {
+  width: 15%;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.train {
+  float: left;
+  font-size: 16px;
+  height: 100px;
+  width: 60%;
+}
+
+.destination {
+  height: 50px;
+  line-height: 61px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.operator {
+  color: #8C9190;
+  height: 50px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.info {
+  float: left;
+  height: 100px;
+  width: 25%;
+}
+
+.arrow {
+  line-height: 100px;
+}
+
+.arrow:before {
+  border-style: solid;
+  border-color: #2E2975;
+  border-width: 0.25em 0.25em 0 0;
+  content: '';
+  display: inline-block;
+  height: 0.45em;
+  left: 0.15em;
+  position: relative;
+  top: 0.15em;
+  transform: rotate(45deg);
+  vertical-align: center;
+  width: 0.45em;
+}
+
+.updates {
+  float: left;
+  height: 100px;
+}
+
+.platform {
+  height: 50px;
+  line-height: 61px;
+  text-align: right;
+}
+
+.real-time {
+  text-align: right;
+}
+
+.on-time {
+  color: #287C37;
+}
+
+.delayed {
+  color: red;
+}

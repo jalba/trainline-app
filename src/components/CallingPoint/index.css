@@ -1,0 +1,101 @@
+.calling-point {
+  display: flex;
+  height: 80px;
+  margin-left: 10%;
+  width: 80%;
+}
+
+.segment {
+  height: 80px;
+  margin-top: -4px;
+  width: 12%;
+}
+
+.upper-segment, .lower-segment {
+  border-right: 3px solid #CAC8C9;
+  height: 30px;
+  width: 11px;
+}
+
+.first-segment, .last-segment {
+  border-right: 1px solid white;
+}
+
+.first-segment {
+  height: 26px;
+}
+
+.last-point {
+  margin-top: -4px;
+}
+
+.point {
+  border: 3px solid #ADADAD;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.terminal-point {
+   background-color: black !Important;
+   height: 30px;
+   margin-left: -6px;
+   width: 30px;
+}
+
+.time-calling-point {
+  font-size: 18px;
+  font-weight: bold;
+  height: 80px;
+  line-height: 80px;
+  width: 20%;
+}
+
+.passed {
+  background-color: #ADADAD;
+}
+
+.train-call {
+  background-color: #48B5B5;
+  border: 1px solid #ADADAD;
+  border-radius: 50%;
+  display: none;
+  margin-left: -4px;
+  position: relative;
+  width: 32px;
+}
+
+.train-call-logo {
+  margin: 2px;
+  width: 28px;
+}
+
+.in-station, .in-range {
+  display: block;
+}
+
+.in-range {
+  margin-top: -21px;
+}
+
+.in-station {
+  margin-top: -62px;
+}
+
+.info-station {
+  padding-top: 25px;
+  width: 50%;
+}
+
+.station-name {
+  font-size: 18px;
+}
+
+.parked {
+  font-weight: bolder;
+}
+
+.real-time-station {
+  margin-top: 10px;
+  text-align: left;
+}
