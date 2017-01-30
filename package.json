@@ -59,6 +59,7 @@
   },
   "scripts": {
     "start": "node ./scripts/start.js",
-    "test": "TEST=true mocha"
+    "test": "TEST=true mocha",
+    "postinstall": "npm install babel-polyfill --save-dev"
   }
 }
