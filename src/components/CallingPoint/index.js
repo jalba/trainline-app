@@ -8,7 +8,6 @@ import train from '../../train.svg';
 
 export default function CallingPoint(props) {
   const data = props.data;
-  console.log(data);
   const location = data.location;
   const stationName = location.crs;
   const departure = data.departure || {};
