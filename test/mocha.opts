@@ -1,0 +1,7 @@
+src/**/*.test.js
+*.test.js
+
+--compilers js:babel-register
+
+--require utils/test/dom
+--require utils/test/import-helper

@@ -22,7 +22,6 @@ function getTrainPosition(list) {
 export default function CallingPointsList(props) {
   const list = props.callingPoints;
   const position =  getTrainPosition(list);
-  console.log(position);
   return (
     <div className="calling-points-container">
       <ul>
