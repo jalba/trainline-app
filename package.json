@@ -30,7 +30,10 @@
     "eslint-plugin-import": "^1.8.0",
     "eslint-plugin-jsx-a11y": "^1.2.0",
     "eslint-plugin-react": "^5.1.1",
+    "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.10.0",
+    "filesize": "^3.5.4",
+    "gzip-size": "^3.0.0",
     "html-webpack-plugin": "^2.28.0",
     "http-proxy-middleware": "^0.17.3",
     "jsdom": "^9.9.1",
@@ -43,10 +46,12 @@
     "postcss-url": "^5.1.1",
     "react-addons-test-utils": "^15.4.2",
     "react-dev-utils": "^0.4.2",
+    "recursive-readdir": "^2.1.0",
     "redux-mock-store": "^1.2.1",
     "style-loader": "^0.13.1",
     "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.16.2"
+    "webpack-dev-server": "^1.16.2",
+    "webpack-manifest-plugin": "^1.1.0"
   },
   "dependencies": {
     "react": "^15.4.2",
@@ -59,6 +64,7 @@
   },
   "scripts": {
     "start": "node ./scripts/start.js",
+    "build": "node ./scripts/build.js",
     "test": "TEST=true mocha",
     "postinstall": "npm install babel-polyfill --save-dev"
   }
